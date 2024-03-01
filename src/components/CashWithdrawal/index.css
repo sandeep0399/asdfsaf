@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.Cash-container {
+  min-height: 0px;
+  background-color: #150b3e;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #c7d2fe;
+}
+.profile-pic {
+  background-color: #c7d2fe;
+  color: #150b3e;
+  padding: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 60px;
+  margin-right: 20px;
+}
+.heading {
+  font-size: 25px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-heading {
+  font-size: 30px;
+  font-weight: 500;
+  color: #585076;
+}
+.balance {
+  font-size: 30px;
+  font-weight: 500;
+  color: #d4d2db;
+}
+.withdraw-heading {
+  color: #c7d2fe;
+  font-size: 30px;
+}
+
+.withdraw-disc {
+  font-size: 20px;
+  font-weight: 500;
+  color: #585076;
+}
+
+.unorder-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
